@@ -4,15 +4,6 @@
 
 ## Структура репозитория
 
-├── data/
-│ ├── products.json
-│ ├── categories.json
-│ └── productCategories.json
-├── src/
-│ └── main.py
-├── NoteBookFile.ipynb
-└── docker-compose.yml
-
 - **data/** — исходные JSON-файлы с тестовыми данными.  
 - **src/main.py** — скрипт для тестирования кода на python.  
 - **NoteBookFile.ipynb** — интерактивный Jupyter Notebook.  
