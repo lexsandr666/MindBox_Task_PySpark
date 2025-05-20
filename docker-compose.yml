@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  notebook:
+    image: jupyter/pyspark-notebook:latest
+    container_name: pyspark-notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/work
